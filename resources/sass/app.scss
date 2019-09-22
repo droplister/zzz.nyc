@@ -1,8 +1,19 @@
 // Fonts
-@import url('https://fonts.googleapis.com/css?family=Nunito');
+@import url('https://fonts.googleapis.com/css?family=Roboto');
+@import url('https://fonts.googleapis.com/css?family=Roboto+Slab');
 
-// Variables
-@import 'variables';
+// Modules
+@import 'modules/_all';
 
-// Bootstrap
-@import '~bootstrap/scss/bootstrap';
+// Partials
+@import 'partials/_fonts';
+@import 'partials/_base';
+@import 'partials/_structure';
+@import 'partials/_adverts';
+@import 'partials/_buttons';
+@import 'partials/_asset';
+@import 'partials/_module-list';
+@import 'partials/_responsive';
+
+// Normalize
+@import "normalize.css";
