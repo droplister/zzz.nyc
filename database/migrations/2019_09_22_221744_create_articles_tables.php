@@ -9,6 +9,7 @@ class CreateArticlesTables extends Migration
     {
         Schema::create('articles', function (Blueprint $table) {
             createDefaultTableFields($table, true, true, true);
+            $table->boolean('featured')->default(false);
             $table->integer('position')->unsigned()->nullable();
         });
 
