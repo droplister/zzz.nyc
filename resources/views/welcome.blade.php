@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="{{ str_replace('_', '-', app()->getLocale()) }}">
   <head>
-    <meta charset="utf-8">
+    <meta charset="UTF-8">
     <title>Area 17 :: Front End :: Home</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0">
     <link rel="stylesheet" type="text/css" media="all" href="{{ asset('stylesheets/normalize.css') }}" />
