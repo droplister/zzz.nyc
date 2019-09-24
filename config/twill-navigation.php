@@ -2,7 +2,7 @@
 
 return [
     'featured' => [
-        'title' => 'Features',
+        'title' => 'Homepage',
         'route' => 'admin.featured.homepage',
         'primary_navigation' => [
             'homepage' => [
