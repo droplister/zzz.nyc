@@ -1,6 +1,9 @@
 <?php
 
 return [
+    'enabled' => [
+        'search' => false,
+    ],
     'buckets' => [
         'homepage' => [
             'name' => 'Home',
