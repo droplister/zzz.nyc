@@ -10,10 +10,10 @@
   <body>
     <div id="wrapper">
       <main>
-@yield('main')
+        @yield('main')
       </main>
       <aside>
-@yield('aside')
+        @yield('aside')
       </aside>
     </div>
   </body>
