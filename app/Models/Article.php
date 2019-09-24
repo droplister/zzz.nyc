@@ -22,6 +22,7 @@ class Article extends Model implements Sortable
     public $translatedAttributes = [
         'title',
         'content',
+        'active',
     ];
     
     public $slugAttributes = [
