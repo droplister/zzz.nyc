@@ -4,9 +4,9 @@
 
 @section('aside')
 @include('partials.ad-spot')
-@include('site.home.partials.trending')
+@include('site.home.sections.trending')
 @endsection
 
 @section('main')
-@include('site.home.partials.features')
+@include('site.home.sections.features')
 @endsection
