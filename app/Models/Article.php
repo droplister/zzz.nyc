@@ -17,18 +17,11 @@ class Article extends Model implements Sortable
 
     protected $fillable = [
         'published',
-        'title',
-        'content',
-        'position',
-        'featured',
-        'publish_start_date',
-        'publish_end_date',
     ];
 
     public $translatedAttributes = [
         'title',
         'content',
-        'active',
     ];
     
     public $slugAttributes = [

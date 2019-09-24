@@ -4,6 +4,7 @@
     @formField('wysiwyg', [
         'name' => 'content',
         'label' => 'Article',
+        'translated' => true,
         'toolbarOptions' => [ 
             ['header' => [2, 3, 4, 5, 6, false]],
             'bold',
@@ -26,7 +27,7 @@
         'editSource' => true
     ])
     @formField('medias', [
-        'name' => 'default',
+        'name' => 'cover',
         'label' => 'Featured Image'
     ])
 @stop
