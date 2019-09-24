@@ -3,11 +3,11 @@
 return [
     'featured' => [
         'title' => 'Home',
-        'route' => 'admin.featured.homepage',
+        'route' => 'admin.featured.home',
         'primary_navigation' => [
             'homepage' => [
                'title' => 'Home',
-               'route' => 'admin.featured.homepage',
+               'route' => 'admin.featured.home',
             ],
         ],
     ],

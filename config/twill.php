@@ -15,7 +15,7 @@ return [
         ],
     ],
     'buckets' => [
-        'homepage' => [
+        'home' => [
             'name' => 'Home',
             'buckets' => [
                 'home_primary_feature' => [
