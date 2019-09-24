@@ -25,7 +25,18 @@ return [
                             'scopes' => ['published' => true],
                         ],
                     ],
-                    'max_items' => 2,
+                    'max_items' => 6,
+                ],
+                'home_trending_features' => [
+                    'name' => 'Home trending features',
+                    'bucketables' => [
+                        [
+                            'module' => 'articles',
+                            'name' => 'Articles',
+                            'scopes' => ['published' => true],
+                        ],
+                    ],
+                    'max_items' => 4,
                 ],
             ],
         ],
