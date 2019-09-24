@@ -9,7 +9,7 @@ return [
             'name' => 'Home',
             'buckets' => [
                 'home_primary_feature' => [
-                    'name' => 'Home primary feature',
+                    'name' => 'Home features (grid)',
                     'bucketables' => [
                         [
                             'module' => 'articles',
@@ -20,7 +20,7 @@ return [
                     'max_items' => 1,
                 ],
                 'home_secondary_features' => [
-                    'name' => 'Home secondary features',
+                    'name' => 'Home features (grid)',
                     'bucketables' => [
                         [
                             'module' => 'articles',
@@ -31,7 +31,7 @@ return [
                     'max_items' => 6,
                 ],
                 'home_trending_features' => [
-                    'name' => 'Home trending features',
+                    'name' => 'Home trending (list)',
                     'bucketables' => [
                         [
                             'module' => 'articles',
