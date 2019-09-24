@@ -1,4 +1,4 @@
-<div class="asset-box{{ isset($tall) && $tall === true ? ' tall' : '' }}">
+<div class="asset-box{{ isset($primary) && $primary === true ? ' tall' : '' }}">
   <div class="asset-image">
     <a href="#" target="_self" style="background-image: url(images/batman.jpg)" title=""></a>
   </div>
