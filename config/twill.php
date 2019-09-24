@@ -19,7 +19,7 @@ return [
             'name' => 'Home',
             'buckets' => [
                 'home_primary_feature' => [
-                    'name' => 'Home features (grid)',
+                    'name' => 'Home featured (grid)',
                     'bucketables' => [
                         [
                             'module' => 'articles',
