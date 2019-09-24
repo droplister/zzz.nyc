@@ -8,11 +8,8 @@ return [
         'modules' => [
             'articles' => [
                 'name' => 'articles',
-                'routePrefix' => 'articles',
                 'count' => true,
-                'create' => true,
                 'activity' => true,
-                'draft' => true,
             ],
         ],
     ],
