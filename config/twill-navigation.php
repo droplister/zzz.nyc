@@ -1,10 +1,6 @@
 <?php
 
 return [
-    'articles' => [
-        'title' => 'Articles',
-        'module' => true
-    ],
     'featured' => [
         'title' => 'Features',
         'route' => 'admin.featured.homepage',
@@ -14,5 +10,9 @@ return [
                'route' => 'admin.featured.homepage',
             ],
         ],
+    ],
+    'articles' => [
+        'title' => 'Articles',
+        'module' => true
     ],
 ];
