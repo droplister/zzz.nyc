@@ -9,6 +9,7 @@ return [
             'articles' => [
                 'name' => 'articles',
                 'count' => true,
+                'create' => true,
                 'activity' => true,
             ],
         ],
