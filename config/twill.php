@@ -3,6 +3,7 @@
 return [
     'enabled' => [
         'search' => false,
+        'settings' => true,
     ],
     'dashboard' => [
         'modules' => [

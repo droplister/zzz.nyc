@@ -15,4 +15,16 @@ return [
         'title' => 'Articles',
         'module' => true
     ],
+    'settings' => [
+        'title' => 'Settings',
+        'route' => 'admin.settings',
+        'params' => ['section' => 'sidebar'],
+        'primary_navigation' => [
+            'sidebar' => [
+                'title' => 'Sidebar',
+                'route' => 'admin.settings',
+                'params' => ['section' => 'sidebar']
+            ],
+        ]
+    ],
 ];
