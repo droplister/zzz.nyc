@@ -2,11 +2,11 @@
 
 return [
     'featured' => [
-        'title' => 'Homepage',
+        'title' => 'Home',
         'route' => 'admin.featured.homepage',
         'primary_navigation' => [
             'homepage' => [
-               'title' => 'Homepage',
+               'title' => 'Home',
                'route' => 'admin.featured.homepage',
             ],
         ],
