@@ -1,24 +1,22 @@
-@extends('layouts.site')
-
-@section('title', 'Area 17 :: Front End :: Home')
-
 <?php
     $trending_articles = ['article', 'article', 'article', 'article'];
-    $featured_bucket = true;
-    $featured_article = ['article'];
-    $features_bucket = true;
-    $features_articles_chunk = [
+    $primary_featured_article = ['article'];
+    $secondary_featured_articles = [
         ['article', 'article'],
         ['article', 'article'],
         ['article', 'article'],
     ];
 ?>
 
+@extends('layouts.site')
+
+@section('title', 'Area 17 :: Front End :: Home')
+
 @section('aside')
     @include('partials.ad-spot')
-    @include('site.home.sections.trending')
+    @include('buckets.trending_articles')
 @endsection
 
 @section('main')
-    @include('site.home.sections.features')
+    @include('buckets.featured_articles')
 @endsection
