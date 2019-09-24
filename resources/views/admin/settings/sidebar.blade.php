@@ -1,9 +1,14 @@
-@extends('twill::layouts.settings')
+@extends('twill::layouts.settings', [
+    'contentFieldsetLabel' => 'Ad Spot',
+])
 
 @section('contentFields')
     @formField('input', [
-        'label' => 'Sidebar Ad',
-        'name' => 'ad_html',
-        'rows' => 3,
+        'label' => 'Link URL',
+        'name' => 'link_url',
+    ])
+    @formField('input', [
+        'label' => 'Creative',
+        'name' => 'creative',
     ])
 @stop
