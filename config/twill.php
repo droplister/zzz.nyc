@@ -4,6 +4,18 @@ return [
     'enabled' => [
         'search' => false,
     ],
+    'dashboard' => [
+        'modules' => [
+            'articles' => [
+                'name' => 'articles',
+                'routePrefix' => 'articles',
+                'count' => true,
+                'create' => true,
+                'activity' => true,
+                'draft' => true,
+            ],
+        ],
+    ],
     'buckets' => [
         'homepage' => [
             'name' => 'Home',
