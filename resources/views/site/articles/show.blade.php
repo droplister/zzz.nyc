@@ -12,7 +12,7 @@
 @section('main')
 <div class="asset-box">
   <div class="asset-image">
-    <a href="{{ route('articles.show', ['locale' => $locale, 'slug' => $article->slug]) }}" target="_self" style="background-image: url({{ $article->image('cover') }})" title=""></a>
+    <a href="{{ url('/') }}" target="_self" style="background-image: url({{ $article->image('cover') }})" title=""></a>
   </div>
   <div class="asset-content">
     <header>
