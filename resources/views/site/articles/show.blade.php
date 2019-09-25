@@ -5,8 +5,6 @@
 @section('aside')
 <a href="{{ route('articles.show', ['locale' => 'en', 'slug' => $article->slug]) }}">EN</a> |
 <a href="{{ route('articles.show', ['locale' => 'es', 'slug' => $article->slug]) }}">ES</a>
-<br />
-<a href="{{ url('/') }}"><strong><small>ZZZ.NYC</small></strong></a>
 @endsection
 
 @section('main')
