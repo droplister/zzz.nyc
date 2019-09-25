@@ -1,7 +1,7 @@
 <div class="row">
 @if($primary_featured_article)
   <div class="col-6">
-    @include('partials.asset-box', ['asset' => $primary_featured_article, 'primary' => true])
+    @include('partials.asset-box', ['item' => $primary_featured_article, 'primary' => true])
   </div>
 @endif
 @if($secondary_featured_articles)
@@ -9,7 +9,7 @@
     @include('partials.new-row', ['insert' => $loop->index & 1 && ! $loop->last])
     <div class="col-6">
       @foreach($chunk as $secondary_featured_article)
-        @include('partials.asset-box', ['asset' => $secondary_featured_article])
+        @include('partials.asset-box', ['item' => $secondary_featured_article])
       @endforeach
     </div>
   @endforeach
