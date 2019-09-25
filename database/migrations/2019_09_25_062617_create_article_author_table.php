@@ -16,6 +16,8 @@ class CreateArticleAuthorTable extends Migration
         Schema::create('article_author', function (Blueprint $table) {
             $table->bigIncrements('id');
             $table->timestamps();
+            $table->integer('position')->unsigned();
+            createDefaultRelationshipTableFields($table, 'article', 'author');
         });
     }
 
