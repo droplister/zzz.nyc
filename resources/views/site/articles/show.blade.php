@@ -19,4 +19,5 @@
     </header>
   </div>
 </div>
+{!! $article->renderBlocks(false) !!}
 @endsection
