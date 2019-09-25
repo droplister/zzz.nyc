@@ -8,10 +8,10 @@
       @include('partials.share-button', ['show' => ! isset($primary)])
     </header>
     <footer>
-      <a href="{{ route('articles.show', ['locale' => 'en', 'article' => $item->slug]) }}" class="button" style="background-image:url({{ $article->authors->first()->image('profile') }})"></a>
+      <a href="{{ route('articles.show', ['locale' => 'en', 'article' => $item->slug]) }}" class="button" style="background-image:url({{ $item->authors->first()->image('profile') }})"></a>
       <ul>
-        <li>{{ $article->authors->first()->title }}</li>
-        <li>{{ $article->authors->first()->description }}</li>
+        <li>{{ $item->authors->first()->title }}</li>
+        <li>{{ $item->authors->first()->description }}</li>
       </ul>
       @include('partials.share-button', ['show' => isset($primary)])
     </footer>
