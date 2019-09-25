@@ -25,4 +25,5 @@
         'label' => 'Author',
         'max' => 1
     ])
+    @formField('block_editor')
 @stop
