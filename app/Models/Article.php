@@ -53,4 +53,9 @@ class Article extends Model implements Sortable
             ],
         ],
     ];
+
+    public function authors()
+    {
+        return $this->belongsToMany(\App\Models\Author::class);
+    }
 }

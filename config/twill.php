@@ -13,6 +13,12 @@ return [
                 'create' => true,
                 'activity' => true,
             ],
+            'authors' => [
+                'name' => 'authors',
+                'count' => true,
+                'create' => true,
+                'activity' => true,
+            ],
         ],
     ],
     'buckets' => [

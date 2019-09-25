@@ -19,4 +19,10 @@
         'name' => 'cover',
         'label' => 'Featured Image'
     ])
+    @formField('browser', [
+        'moduleName' => 'authors',
+        'name' => 'authors',
+        'label' => 'Author',
+        'max' => 1
+    ])
 @stop

@@ -15,6 +15,10 @@ return [
         'title' => 'Articles',
         'module' => true
     ],
+    'authors' => [
+        'title' => 'Authors',
+        'module' => true
+    ],
     'settings' => [
         'title' => 'Settings',
         'route' => 'admin.settings',
