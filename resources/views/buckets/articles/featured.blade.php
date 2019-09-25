@@ -5,7 +5,7 @@
   </div>
 @endif
 @if($secondary_featured_articles)
-  @foreach($secondary_featured_articles as $chunk)
+  @foreach($secondary_featured_articles->chunk(2) as $chunk)
     @include('partials.new-row', ['insert' => $loop->index & 1 && ! $loop->last])
     <div class="col-6">
       @foreach($chunk as $secondary_featured_article)
